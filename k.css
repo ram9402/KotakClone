@@ -1,0 +1,344 @@
+
+.one{
+    height:40px;
+    margin: 30px;
+}
+*{
+    margin:0% ;
+    box-sizing: border-box;
+    /* border: 1px solid red */
+    font-family: sans-serif;
+}
+
+.mainone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* .one{
+    width: 50%;
+} */
+.two{
+    float: right;
+    width: 30%;
+    height: 50%;
+    max-height: 20%;
+    box-shadow: 1px 2px 3px gray;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 5px;
+}
+.formy label{
+    font-weight: 100px;
+    font-size: small;
+    margin-top: 1.5%;
+    margin-bottom: 0.08%;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+}
+
+.formy{
+    display: flex;
+    flex-direction: column;
+}
+
+.formy input[type ="text"],
+input[type="Mobile Number"],
+input[type="+91"] {
+    padding: 1%;
+    width: 60%;
+}
+
+.btn{
+    border: none;
+    background-color:#9cabff;
+    color: white;
+    width: 90%;
+    padding: 3%;
+    border-radius: 20px;
+}
+.twotwo{
+width: 50%;
+}
+hr{
+    margin: 2%;
+    width: 90%0;
+}
+
+.last{
+    text-align: center;
+}
+.last a{
+    text-decoration: none;
+}
+#twotwo{
+    size: 70%;
+}
+
+#three{
+    margin-top: 5%;
+}
+.threeone h2{
+    font-weight: bold;
+}
+
+.four {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light gray background for the page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container with red background */
+.container {
+    margin-left: 7%;
+    margin-top: 5%;
+    background-color: #ff0049;
+    padding: 100px;
+
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1300px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    color: #fff; /* White text for the heading */
+    margin-bottom: 30px;
+    margin-top: -50px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 90px; /* Space between columns */
+}
+
+/* Column boxes with white background */
+.column {
+    flex: 1;
+    background-color: #fff; /* White background for columns */
+    padding: 30px;
+    /* border-radius: 10px; */
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.column img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.column h2 {
+    font-size: 20px;
+    color: #333; /* Dark text for headings */
+    margin-bottom: 50px;
+}
+
+.column p {
+    font-size: 14px;
+    color: #555; /* Gray text for paragraphs */
+}
+
+
+/* section5 */
+.sec5 {
+    margin-top: 20%;
+    flex-direction: row;
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+     position: relative;
+ }
+ .sec5::before { 
+     position: absolute;
+     top: 40px;
+     left: 5%;
+     width: 90%;
+     height: 2px;
+     background-color: #ccc;
+     z-index: -1;
+   
+ }
+ .step {
+     flex: 1;
+     text-align: center;
+     position: relative;
+ }
+ .step img {
+     
+     padding: 10px;
+     border-radius: 5px;
+     width: 50px;
+ }
+ .step h3 {
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+.step p {
+    font-size: 16px;
+    color: #333;
+    width: 80%;
+    margin: 10px auto;
+}
+.checkmark {
+    background: #ff0055;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    
+}
+/* section6 */
+.sec6{
+    background-color: #ffffff;
+    padding: 3%;
+    margin: 2%;
+}
+.three{
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: row;
+   padding-top:2%;
+   padding-right: 5px;
+   padding-bottom: 1px;
+   padding-left: 2%;
+    margin:2%;
+    border-radius: 15px;
+    border:1px solid red;
+    align-items:center;
+  justify-content: space-around;
+}
+.one3 h1{
+  font-size:35px;
+  font-weight: 200;
+  
+}
+/* section7 */
+.sec7{
+    background-color: #ff0049;
+ width: 100vw;
+ height: 70vh;
+border-bottom-right-radius: 100px;
+border-bottom-left-radius: 100px;
+}
+
+.one2 h1{
+    color:white;
+    text-align:center;
+    padding-top: 5%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.carousel-item {
+    background: #ff0049; 
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.testimonial-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: white;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.carousel-indicators button {
+    background-color: white !important;
+}
+ 
+
+/* Section Eight Styles */
+.section-eight {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.section-header h1 {
+    margin-top: 5%;
+    font-size: 35px; /* Adjust as per the picture */
+    color: #333;
+    margin-bottom: 20px;
+    display: inline-block; /* Ensures the heading stays on the same line */
+}
+
+.columns-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 3% auto;
+}
+
+.columnone {
+    height: 100%;
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 40px;
+    background-color: #ff0049; 
+    text-align: center;
+    aspect-ratio: 5 / 4; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.column-icon {
+    display: flex;
+    width: 30px; /* Adjust icon size as per the picture */
+    height: 35px; /* Adjust icon size as per the picture */
+    margin-bottom: 15px;
+}
+
+.columnone h2 {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px; /* Adjust as per the picture */
+    color: #fff; /* White text for better contrast on red */
+    margin-bottom: 20px;
+}
+
+.columnone p {
+    font-size: 20px; /* Adjust as per the picture */
+    color: #fff; /* White text for better contrast on red */
+    line-height:1;
+    margin-bottom: 10%;
+}
+
+/* section9 */
+.accordion{
+    align-items:center;
+    font-size: bold;
+    margin: 1% 20% 1% 20%;
+    color: black;
+   
+}
+/* section 10 */
+.sec10{
+    padding: 3%;
+    margin-top: 5%;
+    background-color: #606060;
+    color: white;
+    font-size: 3px;
+}
+.last{
+    font-size: 10px;
+    color: blue;
+}
